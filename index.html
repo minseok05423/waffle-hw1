@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>1st week assignment</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark show">
+        <div
+          class="container-fluid"
+          style="margin-left: 10rem; margin-right: 10rem"
+        >
+          <a class="navbar-brand" href="#">Themebau</a>
+          <div class="d-flex ms-auto gap-3">
+            <div class="nav-group">
+              <div class="nav-link active text-white">Home</div>
+              <div class="nav-item dropdown">
+                <div class="nav-link text-white dropdown-toggle">Pages</div>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                  <li><a class="dropdown-item" href="#">Services</a></li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                  <li><a class="dropdown-item" href="#">404</a></li>
+                </ul>
+              </div>
+              <div class="nav-item dropdown">
+                <div class="nav-link text-white">Contact</div>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Contact1</a></li>
+                  <li><a class="dropdown-item" href="#">Contact2</a></li>
+                </ul>
+              </div>
+            </div>
+            <div id="purchase" class="nav-link">Purchase</div>
+          </div>
+        </div>
+      </nav>
+      <section class="hero-section">
+        <div class="container text-center">
+          <h1 class="hero-title">Themebau.</h1>
+          <p class="hero-description">
+            Themebau is a stylish universal template for all your projects &
+            creative output. Minimalistic and easy to use, it has everything you
+            need to launch your website.
+          </p>
+        </div>
+      </section>
+
+      <section class="portfolio-showcase py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <div class="image-placeholder">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/main-home-740-600.a95c84977b6da10778c0.jpg"
+                    />
+                  </div>
+                </div>
+                <h5 class="portfolio-title">Main Home</h5>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <div class="image-placeholder">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/simple-portfolio-740-600.7e8d77cc24950952629c.jpg"
+                    />
+                  </div>
+                </div>
+                <h5 class="portfolio-title">Simple Portfolio</h5>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <div class="image-placeholder">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/creative-agency-740-600.cd63d27b713c8f6dcc4e.jpg"
+                    />
+                  </div>
+                </div>
+                <h5 class="portfolio-title">Creative Agency</h5>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <div class="image-placeholder">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/freelancer-portfolio-740-600.a1e4575c2891a0b09340.jpg"
+                    />
+                  </div>
+                </div>
+                <h5 class="portfolio-title">Freelancer Portfolio</h5>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <div class="image-placeholder">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/interactive-dark-740-600.eb63a7769a46daf78e67.jpg"
+                    />
+                  </div>
+                </div>
+                <h5 class="portfolio-title">Interactive Dark</h5>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <div class="image-placeholder">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/digital-agency-740-600.2517a5b83f9981d56d3b.jpg"
+                    />
+                  </div>
+                </div>
+                <h5 class="portfolio-title">Digital Agency</h5>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <div class="image-placeholder">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/fullscreen-slider-740-362.26bd178d32e2089c4d0b.jpg"
+                    />
+                  </div>
+                </div>
+                <h5 class="portfolio-title">Fullscreen Slider</h5>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <div class="image-placeholder">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/carousel-light-740-362.2360f7b6d18030a3fedc.jpg"
+                    />
+                  </div>
+                </div>
+                <h5 class="portfolio-title">Carousel Light</h5>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <div class="image-placeholder">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/carousel-dark-740-362.535b138f02e290effe9b.jpg"
+                    />
+                  </div>
+                </div>
+                <h5 class="portfolio-title">Carousel Dark</h5>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <div class="image-placeholder">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/interactive-light-740-600.b9a08a90738f6ab38e7b.jpg"
+                    />
+                  </div>
+                </div>
+                <h5 class="portfolio-title">Interactive Light</h5>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <div class="image-placeholder">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/left-menu-740-600.9db3a9d9cb9388e89840.jpg"
+                    />
+                  </div>
+                </div>
+                <h5 class="portfolio-title">Left Menu</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-grid-section py-5 bg-light">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="project-grid-mockup">
+                <div class="grid-header text-center mb-4">
+                  <h6>Our projects</h6>
+                </div>
+                <div class="project-img1">
+                  <img
+                    src="https://themes.themesbrand.com/themebau/react/static/media/demo-1-940-602.5f778fae7da81c677fae.jpg"
+                  />
+                </div>
+                <div class="project-img2">
+                  <img
+                    src="https://themes.themesbrand.com/themebau/react/static/media/demo-2-740-560.f07e7f0e5b38f8cf8c5a.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h2>Present your work in unique way 💪</h2>
+              <p class="lead">
+                Themebau has 1/2/3/4 columns layouts to showcase your work and
+                collections. Choose between the 19 types of layouts to create
+                your portfolio.
+              </p>
+              <button class="btn btn-dark">view pages →</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="layout-examples py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="layout-grid">
+                <div class="layout-item">Layout 1</div>
+                <div class="layout-item">Layout 2</div>
+                <div class="layout-item">Layout 3</div>
+                <div class="layout-item">Layout 4</div>
+                <div class="layout-item">Layout 5</div>
+                <div class="layout-item">Layout 6</div>
+              </div>
+              <p class="text-center mt-4">and more... 🔥</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-showcase-section py-5 bg-dark text-white">
+        <div class="container">
+          <h2 class="text-center mb-5">Projects Showcase</h2>
+          <div class="row">
+            <div class="col-lg-4 mb-4">
+              <div class="project-showcase">
+                <div class="project-image">
+                  <img
+                    src="https://themes.themesbrand.com/themebau/react/static/media/portfolio-single-1-1000-958.9b984ca30d96e57b1c7b.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="project-showcase">
+                <div class="project-image">
+                  <img
+                    src="https://themes.themesbrand.com/themebau/react/static/media/portfolio-single-2-660-660.67ed9b7adf878046afe2.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="project-showcase">
+                <div class="project-image">
+                  <img
+                    src="https://themes.themesbrand.com/themebau/react/static/media/portfolio-single-3-1000-958.5a3caf4b047d003f05c9.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="inner-pages-section py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-4 offset-2 text-start mb-5">
+              <h2>Practical Inner pages<br />for everything you may need.</h2>
+            </div>
+            <div class="col-4 text-start mb-5">
+              <p>
+                Themebau is packed with set of practical inner pages for various
+                uses. Choose your favorites & customize them to your needs.
+              </p>
+            </div>
+            <div class="col-12">
+              <div class="inner-pages-grid">
+                <div class="inner-page-item">
+                  <div class="page-preview">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/about-us-540-460.f36704b80cfc932becff.jpg"
+                    />
+                  </div>
+                  <p>About Us</p>
+                </div>
+                <div class="inner-page-item">
+                  <div class="page-preview">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/about-us-2-540-460.9b93145e7e9f1b61dc3e.jpg"
+                    />
+                  </div>
+                  <p>About Us V.2</p>
+                </div>
+                <div class="inner-page-item">
+                  <div class="page-preview">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/about-me-540-460.1af10b4ff5a8e13e99dc.jpg"
+                    />
+                  </div>
+                  <p>About Me</p>
+                </div>
+                <div class="inner-page-item">
+                  <div class="page-preview">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/services-540-460.87716a231e22b3301cb6.jpg"
+                    />
+                  </div>
+                  <p>Services</p>
+                </div>
+                <div class="inner-page-item">
+                  <div class="page-preview">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/single-service-540-460.5f5853d5bbf823cf8d21.jpg"
+                    />
+                  </div>
+                  <p>Single Service</p>
+                </div>
+                <div class="inner-page-item">
+                  <div class="page-preview">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/contact-us-540-460.1b489050dba28d9d71d6.jpg"
+                    />
+                  </div>
+                  <p>Contact Us</p>
+                </div>
+                <div class="inner-page-item">
+                  <div class="page-preview">
+                    <img
+                      src="data:image/jpeg;base64,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"
+                    />
+                  </div>
+                  <p>Contact Us V.2</p>
+                </div>
+                <div class="inner-page-item">
+                  <div class="page-preview">
+                    <img
+                      src="data:image/jpeg;base64,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"
+                    />
+                  </div>
+                  <p>404 Page</p>
+                </div>
+                <div class="inner-page-item">
+                  <div class="page-preview">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/blog-540-460.4daef47771170a6b8b1b.jpg"
+                    />
+                  </div>
+                  <p>Blog</p>
+                </div>
+                <div class="inner-page-item">
+                  <div class="page-preview">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/blog-2-540-460.254b22fe23667cb4e6a9.jpg"
+                    />
+                  </div>
+                  <p>Blog V.2</p>
+                </div>
+                <div class="inner-page-item">
+                  <div class="page-preview">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/single-post-540-460.c8fc818c4ba3340758ff.jpg"
+                    />
+                  </div>
+                  <p>Single Post</p>
+                </div>
+                <div class="inner-page-item">
+                  <div class="page-preview">
+                    <img
+                      src="https://themes.themesbrand.com/themebau/react/static/media/coming-soon-540-264.386730b9d415338482b9.jpg"
+                    />
+                  </div>
+                  <p>Coming Soon</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-styles-section py-5 bg-dark text-white">
+        <div class="container">
+          <h2 class="text-center mb-5">Menu Styles</h2>
+          <div class="row">
+            <div class="col-lg-4 mb-4">
+              <div class="menu-style">
+                <div class="menu-preview">
+                  <img
+                    src="https://themes.themesbrand.com/themebau/react/static/media/white-left-menu-740-362.94ac40df657e82c49183.jpg"
+                  />
+                </div>
+                <h5 class="text-center mt-3">Classic Menu</h5>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="menu-style">
+                <div class="menu-preview">
+                  <img
+                    src="https://themes.themesbrand.com/themebau/react/static/media/dark-center-menu-740-362.197a920250619c99da32.jpg"
+                  />
+                </div>
+                <h5 class="text-center mt-3">White Left Menu</h5>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="menu-style">
+                <div class="menu-preview">
+                  <img
+                    src="https://themes.themesbrand.com/themebau/react/static/media/left-menu-740-362.007a734943641d375cc0.jpg"
+                  />
+                </div>
+                <h5 class="text-center mt-3">Dark Center Menu</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="responsive-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="devices-mockup">
+                <img
+                  src="https://themes.themesbrand.com/themebau/react/static/media/responsive-1200-1070.f30dd94f10ad0ddec72e.jpg"
+                  alt="Responsive Design"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h2>Fully responsive and retina ready 👑</h2>
+              <p>
+                Themebau is designed to look great on desktop computers, tablets
+                and mobile devices. Every element 100% responsive & retina
+                ready.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features-section py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="feature-item text-center">
+                <div class="feature-icon">B</div>
+                <h5>Bootstrap 4</h5>
+                <p>
+                  Themebau based on Bootstrap 4, so layout changes is so much
+                  easily.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="feature-item text-center">
+                <div class="feature-icon">S</div>
+                <h5>Sass Available</h5>
+                <p>
+                  Easy customization with SASS variables. You can change colors,
+                  typography and more.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="feature-item text-center">
+                <div class="feature-icon">F</div>
+                <h5>Figma Files Included</h5>
+                <p>We provided a source Figma file with Themebau.</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="feature-item text-center">
+                <div class="feature-icon">♥</div>
+                <h5>Modern Design</h5>
+                <p>
+                  High usability, organizing content, fully responsive design as
+                  per latest design trends.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="feature-item text-center">
+                <div class="feature-icon">?</div>
+                <h5>Customer Support</h5>
+                <p>
+                  We are here to help you if you have any queries about
+                  template.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="feature-item text-center">
+                <div class="feature-icon">↻</div>
+                <h5>Regular Updates</h5>
+                <p>Lifetime reliable and regular updates with your purchase.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features-list-section py-5 bg-dark text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <div class="feature-list-item">
+                <span class="star">★</span> 11 Homepage variations
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="feature-list-item">
+                <span class="star">★</span> Gulp Tooling to automate the
+                Workflow
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="feature-list-item">
+                <span class="star">★</span> Developers ready: Webpack, Gulp,
+                SCSS, Nunjucks, NPM
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="feature-list-item">
+                <span class="star">★</span> 19 Portfolio styles & 6 Single
+                Projects pages
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="feature-list-item">
+                <span class="star">★</span> W3C Valid
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="feature-list-item">
+                <span class="star">★</span> Google Fonts
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="feature-list-item">
+                <span class="star">★</span> 4 Menu & 3 Footer styles
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="feature-list-item">
+                <span class="star">★</span> Easy customization/ via classes &
+                attributes
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="feature-list-item">
+                <span class="star">★</span> Included generated version (ready to
+                use without developer tools)
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="feature-list-item">
+                <span class="star">★</span> Creative Blog & Inner pages
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="feature-list-item">
+                <span class="star">★</span> Smooth Animations
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="feature-list-item">
+                <span class="star">★</span> Google Maps
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="feature-list-item">
+                <span class="star">★</span> 100% Responsive & Retina ready
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="feature-list-item">
+                <span class="star">★</span> Smooth Parallax for images & videos
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-4">
+            <p>and more... 🔥</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta-section py-5">
+        <div class="container text-center">
+          <h1 class="cta-title">Get Themebau →</h1>
+        </div>
+      </section>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
