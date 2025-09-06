@@ -76,9 +76,25 @@ body {
   transition: all 0.3s ease;
   left: 50%;
   transform: translateX(-50%) translateY(-10px);
+  position: absolute;
+  top: 100%;
+  z-index: 1000;
 }
 
-.dropdown:hover .dropdown-menu {
+/* Bridge method - invisible area between dropdown trigger and menu */
+.dropdown::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 1rem;
+  background: transparent;
+  z-index: 999;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu {
   opacity: 1;
   visibility: visible;
   transform: translateX(-50%) translateY(0);
@@ -95,6 +111,10 @@ body {
 .dropdown-item:focus {
   background-color: black;
   color: #ffffff;
+}
+
+.dropdown {
+  position: relative;
 }
 
 .dropdown-toggle::after {
